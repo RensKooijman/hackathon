@@ -20,12 +20,6 @@
                 <input type="file"
                     id="photo" name="photo"
                     accept="image/png, image/jpeg, image/jpg, image/wepb" title="&nbsp;" color="transparent"/>
-                    <?php
-                        session_start();
-                        if(isset($_SESSION["error"])) {
-                            echo '<p id="error">' . $_SESSION["error"] . '</p>';
-                        }
-                    ?>
                     <div id="upload-btn-container">
                         <input type="submit" value="&cross; Verwijderen" name="verwijderd" id="stop">
                         <input type="submit" value="Verzenden &rarr;" name="verzenden" id="send">

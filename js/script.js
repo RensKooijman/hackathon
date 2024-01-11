@@ -3,7 +3,7 @@ $(document).ready(() => {
     $('#stop').bind('click', () => $form.attr('action', '../pages/uploaderdelete.php'));
     $('#send').bind('click', () => $form.attr('action', '../pages/uploader.php'));
     $('#skip').bind('click', () => $form.attr('action', '../pages/compliment.html'));
-    $("button.doorgaan").bind('click', ()=>window.location.href="../pages/infopage.php");
+    $("button.doorgaan").bind('click', ()=>window.location.href="../pages/infopage.html");
     if ($('.animation-overlay')){
       setTimeout(() => {
         $('.animation-overlay').css("display", "none");
